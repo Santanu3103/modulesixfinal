@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card ">
+      <div class="header"  >
+         <h3>Weather Api</h3>
+         <input type="text" placeholder="Location" id="location" class="input">
+         <input type="text" placeholder="Access_key" id="access_key" class="input"> 
+         <input type="submit" id="submit" onclick="validate()" >
+      </div>
+      <div class="card-body">
+        <h2 class="card-title">Weather Data</h2>
+        <div class="innerborder">
+          <p class="card-text1 txt" id="location">location :</p>
+          <p class="card-text2 txt"><span>Lat:</span> <span class="long">Long:</span></p>
+          <p class="card-text3 txt">TimeZone:</p>
+          <p class="card-text4 txt">Wind Speed:</p>
+          <p class="card-text5 txt">Pressure:</p>
+          <p class="card-text6 txt">Humidity:</p>
+          <p class="card-text7 txt">Wind Direction:</p>
+          <p class="card-text8 txt">UV Index:</p>
+          <p class="card-text9 txt">Feels Like:</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
